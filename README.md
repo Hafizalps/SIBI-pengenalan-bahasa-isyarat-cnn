@@ -19,7 +19,7 @@ Pada project ini saya mengimplementasikan CNN (Convolution Neural Network) mengg
     python recognise.py
     ```
     Sesuaikan nilai hsv dari trackbar untuk mengelompokkan warna tangan Anda.
-
+    ```
 3. Untuk melakukan pengenalan bahasa isyarat secara real-time, jalankan perintah berikut..
     ```
     python recognise.py
