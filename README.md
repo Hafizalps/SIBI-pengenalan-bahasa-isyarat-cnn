@@ -14,13 +14,13 @@ Pada project ini saya mengimplementasikan CNN (Convolution Neural Network) mengg
     ```
     python cnn_model.py
     ```
-2. Sekarang untuk menguji model dalam melakukan pengenalan bahasa isyarat secara real-time, Hanya perlu menjalankan recognise.py . Untuk melakukannya cukup buka terminal dan jalankan perintah berikut..
+3. Sekarang untuk menguji model dalam melakukan pengenalan bahasa isyarat secara real-time, Hanya perlu menjalankan recognise.py . Untuk melakukannya cukup buka terminal dan jalankan perintah berikut..
     ```
     python recognise.py
     ```
     Sesuaikan nilai hsv dari trackbar untuk mengelompokkan warna tangan Anda.
 
-3. Untuk membuat kumpulan data set Anda sendiri, jalankan perintah berikut..
+4. Untuk membuat kumpulan data set Anda sendiri, jalankan perintah berikut..
     ```
     python capture.py
     ```
