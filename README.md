@@ -1,26 +1,31 @@
-# Sign Language Detector
-A simple CNN project for detecting american sign language.
-Here, I have implemented CNN (Convolution Neural Network) using Keras.
+# Pengenalan Bahasa Isyarat SIBI
+Program pengenalan bahasa isyarat (SIBI).
+Pada project ini saya mengimplementasikan CNN (Convolution Neural Network) menggunakan Keras.
 
-### Tools Used
+### Tools yang digunakan
 1. Python 3
 2. OpenCV 3
 3. Tensorflow
 4. Keras
 
-### Running this project
+### Langkah-langkah menjalankan project
 1. Install Python 3, Opencv 3, Tensorflow, Keras.
-2. First Train the model.
+2. Pertama, latih model terlebih dahulu.
     ```
     python cnn_model.py
     ```
-2. Now to test the model you just need to run recognise.py . To do so just open the terminal and run following command.
+2. Sekarang untuk menguji model, Hanya perlu menjalankan recognise.py . Untuk melakukannya cukup buka terminal dan jalankan perintah berikut..
     ```
     python recognise.py
     ```
-    Adjust the hsv values from the track bar to segment your hand color.
+    Sesuaikan nilai hsv dari trackbar untuk mengelompokkan warna tangan Anda.
 
-3. To create your own data set.
+3. Untuk melakukan pengenalan bahasa isyarat secara real-time, jalankan perintah berikut..
+    ```
+    python recognise.py
+    ```
+
+4. Untuk membuat kumpulan data set Anda sendiri, jalankan perintah berikut..
     ```
     python capture.py
     ```
